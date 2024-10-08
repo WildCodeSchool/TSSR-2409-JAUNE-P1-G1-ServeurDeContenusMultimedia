@@ -13,7 +13,7 @@ Marilyn Jacques-Sébastien
 Lamine Lican
 
 ## Choix techniques :
-Système d'exploitation
+
 Debian 12 est le système d'exploitation que nous allons utiliser pour notre serveur.
 
 ## Difficultés rencontrées
