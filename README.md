@@ -15,9 +15,12 @@ Lamine Lican
 ## Choix techniques :
 
 Debian 12 est le système d'exploitation que nous allons utiliser pour notre serveur.
+Les clients sont sous OS Windows 10 et ubuntu 22.04
 
 ## Difficultés rencontrées
+Nous avons rencontré des difficultés lors du transfert des vm ubuntu et Windows 10 notamment à cause de la taille du fichier de la vm w10 
+Nous avons eu des difficultés lors de l’installation de plex média server,differents problèmes dans le téléchargement.Pas toujours les bonnes versions de plex.Lorsque nous avons testé des commandes comme sudo apt install dirmngr ca-certificates software-properties-common apt-transport-https curl -y ou encore Sinon curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add - cela en vain.
 
 ## Solutions/Alternatives trouvées :
-
+Baudouin a alors décidé d’utiliser un autre compte pour pouvoir mettre la VMUbuntu sur un autre drive.Quand à la vm Windows nous avons utilise MEGA,qui est un service de stockage cloud dont les 20 premiers go sont gratuits.
 ## Améliorations trouvées :
