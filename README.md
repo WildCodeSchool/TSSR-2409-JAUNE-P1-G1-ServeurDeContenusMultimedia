@@ -19,8 +19,9 @@ Les clients sont sous OS Windows 10 et ubuntu 22.04
 
 ## Difficultés rencontrées
 Nous avons rencontré des difficultés lors du transfert des vm ubuntu et Windows 10 notamment à cause de la taille du fichier de la vm w10 
-Nous avons eu des difficultés lors de l’installation de plex média server,differents problèmes dans le téléchargement.Pas toujours les bonnes versions de plex.Lorsque nous avons testé des commandes comme sudo apt install dirmngr ca-certificates software-properties-common apt-transport-https curl -y ou encore Sinon curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add - cela en vain.
+Nous avons eu des difficultés lors de l’installation de plex média server,differents problèmes dans le téléchargement.Pas toujours les bonnes versions de plex.Lorsque nous avons testé des commandes comme sudo apt install dirmngr ca-certificates software-properties-common apt-transport-https curl -y ou encore Sinon curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add - cela en vain.La documentation de Plex n'était pas adaptée.
 
 ## Solutions/Alternatives trouvées :
-Baudouin a alors décidé d’utiliser un autre compte pour pouvoir mettre la VMUbuntu sur un autre drive.Quand à la vm Windows nous avons utilise MEGA,qui est un service de stockage cloud dont les 20 premiers go sont gratuits.
+Baudouin a alors décidé d’utiliser un autre compte pour pouvoir mettre la VMUbuntu sur un autre drive.Quand à la vm Windows nous avons utilise MEGA,qui est un service de stockage cloud dont les 20 premiers go sont gratuits.Nous avons alors décidé de tout reprendre à 0 et nous avons recherché une nouvelle documenation sur internet plus adapté à notre environnement de travail.Nous avons ainsi reussi l'installation de plex 
+
 ## Améliorations trouvées :
