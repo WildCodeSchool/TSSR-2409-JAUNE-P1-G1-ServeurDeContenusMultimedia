@@ -15,7 +15,8 @@ Lamine Lican
 ## Choix techniques :
 
 Debian 12 est le système d'exploitation que nous allons utiliser pour notre serveur.
-Les clients sont sous OS Windows 10 et ubuntu 22.04
+Les clients sont sous OS Windows 10 et ubuntu 24.04 LTS.
+Besoin d'une documentation pour l'installion de plex
 
 ## Difficultés rencontrées
 Nous avons rencontré des difficultés lors du transfert des vm ubuntu et Windows 10 notamment à cause de la taille du fichier de la vm w10 
