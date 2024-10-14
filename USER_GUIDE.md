@@ -25,8 +25,17 @@
 #### On télécharge la clé Plex GPG, qui est utilisée pour vérifier l'authenticité des paquets :
 - curl -fsSL https://downloads.plex.tv/plex-keys/PlexSign.key | gpg --dearmor | sudo tee /usr/share/keyrings/plex.gpg > /dev/null
 
-  
+#### On crée un nouveau fichier dans le sources.list.d répertoire avec les informations nécessaires sur le référentiel Plex.
+- echo "deb [signed-by=/usr/share/keyrings/plex.gpg] https://downloads.plex.tv/repo/deb public main" | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
 
+#### Avant d'installer Plex, on va mettez à jour l'index du paquet pour inclure le référentiel Plex nouvellement ajouté :
+- sudo apt update
+  
+#### Installation du logiciel Plex :
+- sudo apt install plexmediaserver
+
+#### Avec cette commande, nous salon vérifier que le service Plex et bien démarrer (Normalement le service Plex doit démarrer automatiquement).
+- systemctl status plexmediaserver
 
 ## Utilisation de base :
 
