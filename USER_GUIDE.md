@@ -10,7 +10,7 @@
 
 ## Étape 1 : Installation de plex
 
-#### Avant de commencer, nous allons voir si vous savez bien Internet. 
+#### Avant de commencer, nous allons voir si vous savez bien Internet. Puis faite CTRL+C pour arrêter la commande.
 - ping 8.8.8.8
 
 #### Nous allons Commencez par mettre à jour le serveur Debian 12 en fesant cette commande :
