@@ -1,6 +1,6 @@
 # Doc utilisateur : Installation de Plex sur un serveur Debian 12
 
-### Les Prérequis matériels a avoir :
+### Les Prérequis matériels à avoir :
 - Un PC Windows 10 ou un PC Ubuntu (Linux)
 - Un serveurs Debian 12 (Linux)
   
