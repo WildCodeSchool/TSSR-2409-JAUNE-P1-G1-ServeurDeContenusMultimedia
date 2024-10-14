@@ -48,6 +48,7 @@
 
 
 ## FAQ :
+#### Que faire si je n’ai pas Internet ?
 
 #### Que faire si le service Plex Media Server n’ais pas actif ?
 
