@@ -1,20 +1,20 @@
-# Doc utilisateur : Installation et configuration de Plex sur un serveur Debian 12
+# Doc utilisateur : Installation de Plex sur un serveur Debian 12
 
-## Les Prérequis matériels a avoir :
+### Les Prérequis matériels a avoir :
 - Un PC Windows 10
 - Un serveurs Debian 12
   
-## Les Prérequis à avoir sur Windows 10 :
+### Les Prérequis à avoir sur Windows 10 :
 - Machine Renommé CLIWIN01
 - Une adresse IP fixe
 - Possède une connexion internet.
 
-## Les Prérequis à avoir sur le serveur Debian 12 :
+### Les Prérequis à avoir sur le serveur Debian 12 :
 - Machine Renommé SRVLX01
 - Une adresse IP fixe
 - Possède une connexion internet.
 
-## Partie 1 : Installation de plex
+## Étape 1 : Installation de plex
 
 #### Nous salon Commencez par mettre à jour le serveur Debian 12 en fesant cette commande :
 - sudo apt update && sudo apt upgrade
@@ -37,8 +37,24 @@
 #### Avec cette commande, nous salon vérifier que le service Plex et bien démarrer (Normalement le service Plex doit démarrer automatiquement).
 - systemctl status plexmediaserver
 
+#### Vous venez de terminer l'installation de Plex.
+#### Si vous rencontrez des problèmes pendant l'installation, merci de vous référer à la FAQ en bas de la page.
+
+ ## Étape 2 : Accéder à l’interface Web sur votre ordinateur
+
+
 ## Utilisation de base :
+
 
 ## Utilisation avancée :
 
+
 ## FAQ :
+
+#### Que faire si le service Plex Media Server n’ais pas actif ?
+
+#### Si le service n'est pas actif, utilisez la commande suivante pour démarrer Plex Media Server :
+
+- sudo systemctl start plexmediaserver
+
+
