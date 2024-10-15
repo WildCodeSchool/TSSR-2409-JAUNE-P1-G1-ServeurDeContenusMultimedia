@@ -20,6 +20,15 @@
 #### Configurez le nom de votre serveur si vous le souhaitez. Vous avez également la possibilité de désactiver l'option Autoriser l'accès à mes médias en dehors de chez moi. Par défaut, l'accès aux médias extérieurs est activé ; décochez la fonction si vous ne prévoyez pas de le faire.
 #### Une fois configuré, cliquez sur le bouton next.
 
+## Étape 5 : Bibliothèque multimédia
+
+#### La page Médiathèque vous donne la possibilité de pré-ajouter vos répertoires multimédias. Mais nous allons voir sa plus tard.
+
+## Étape 6 : Menu Plex
+
+#### Appuyez sur le bouton next pour terminer la configuration initiale. L'écran suivant vous informe que tout est prêt.
+#### Cliquez sur le bouton finish pour accéder au tableau de bord Plex.
+
 
 ## Utilisation de base :
 
