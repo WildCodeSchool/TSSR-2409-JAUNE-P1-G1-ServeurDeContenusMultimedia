@@ -59,5 +59,9 @@ Pendant l'installation, une invite peut vous demander si vous souhaitez remplace
 Par défaut, le service Plex Media Server devrait démarrer automatiquement. Pour vérifier cela, utilisez la commande suivante pour afficher l'état du service :
  
 > **systemctl status plexmediaserver**
- 
+
+
+![Serveur actif](./IMAGES/serverOk.png)
+
+
 ----------
