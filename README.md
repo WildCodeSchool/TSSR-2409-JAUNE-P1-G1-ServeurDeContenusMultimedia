@@ -51,7 +51,7 @@ Après de nombreux tests, nous avons choisi de suivre la documentation de [Joshu
 Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapté.s à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liés aux lignes de     commandes exécutées, soit par une explication trouvé sur des forums comme [Stack Overflow](https://stackoverflow.com/), soit en examinant scrupuleusement la syntaxe des commandes. 
 
 ### Installation Plex
-L'installation est très simple à conditions de suivre le bon chemin. Choisir la documentation alternative de J.James nous a permis de faire une installation du service en moins de dix minutes montre en main.    
+L'installation est très simple à conditions de suivre le bon chemin. Choisir la documentation alternative de J.James nous a permis de faire une installation du service en moins de dix minutes montre en main.  Nous avons pu finaliser l'installation et la configuration de Plex via le WebGUI. C'est grâce à cette interface coté VM client que nous avons pu atteindre notre objectif secondaire.  
 
 
 ## Améliorations trouvées :
