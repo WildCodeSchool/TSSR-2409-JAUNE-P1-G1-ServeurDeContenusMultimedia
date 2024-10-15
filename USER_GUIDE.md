@@ -15,6 +15,11 @@
 
 #### Ignorer cette étape, cliquez sur le X dans le coin supérieur droit puis next :
 
+## Étape 4 : Configuration du serveur
+
+#### Configurez le nom de votre serveur si vous le souhaitez. Vous avez également la possibilité de désactiver l'option Autoriser l'accès à mes médias en dehors de chez moi. Par défaut, l'accès aux médias extérieurs est activé ; décochez la fonction si vous ne prévoyez pas de le faire.
+#### Une fois configuré, cliquez sur le bouton next.
+
 
 ## Utilisation de base :
 
