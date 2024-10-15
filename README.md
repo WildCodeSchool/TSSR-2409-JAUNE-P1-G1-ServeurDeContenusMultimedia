@@ -55,3 +55,4 @@ L'installation est très simple à conditions de suivre le bon chemin. Choisir l
 
 
 ## Améliorations trouvées :
+Une première amélioration possible serait de sécuriser la connection via url de HTTP à HTTPS. 
