@@ -43,9 +43,12 @@ Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Nota
 Évoqué ci-dessus, l'isntalaltion du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tounés vers d'autres documentations. Cependant, la plupart des sources n'indiquaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
 
 ## Solutions/Alternatives trouvées :
+
  ### Documentation Plex
+ Après de nombreux tests, nous avons choisi de suivre la documentation de [Joshua James](https://twitter.com/joshism_j) sur le site https://linuxcapable.com/. C'est la seule documentation qui, en plus d'être claire et concise, explique et propose des éléments supplémentaires comme la configurations des droits de l'utilisateur plex sur la VM serveur. 
 
  ### VM Serveur
+Malgré À force de faire et refaire des instalaltions de Plex, nous nous sommes adapté.es à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liés aux lignes de commandes exécutées, soit par une explication trouvé sur des forums comme [Stack Overflow](https://stackoverflow.com/), soit en examinant scrupuleusement la syntaxe des commandes.
 
  ### Installation Plex
  
