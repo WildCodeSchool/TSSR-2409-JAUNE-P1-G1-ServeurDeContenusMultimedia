@@ -18,6 +18,19 @@ Puis trouver l'interface correspondante à la carte réseau connectée au résea
 ### Définir une adresse IP fixe :
 Nous allons éditer le fichier de la carte réseau
 -	sudo nano /etc/network/interfaces
+  
+#### Dans le fichier, en dessous de the loopback network interface. Modifier la carte réseaux primerais et rajouter la secondaire (Nat).
+
+#  The primary network interface
+Auto enp0s3
+Iface enp0s3 inet static
+	address 172.16.10.10
+	netmask 255.255.255.0
+
+#  the secondary network interface
+Auto enp0s8
+Iface enp0s8 inet dhcp
+
 
 
 # **Installation de Plex sur Debian 12**
