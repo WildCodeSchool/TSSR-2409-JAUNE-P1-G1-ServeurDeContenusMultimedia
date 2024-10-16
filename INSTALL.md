@@ -5,7 +5,7 @@
 - Os serveur Debian 
 - OS client Ubuntu 24.04
 - OS client Windows 10
-- Plex
+
 
 ## Étapes d'installation & configuration 
 ----------
