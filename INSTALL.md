@@ -2,7 +2,7 @@
 
 ## Pré-requis techniques
 - Virtualbox
-- Os serveur Debian (
+- Os serveur Debian (Interface 1 : Réseau interne, Interface 2 : NAT)
 - OS client Ubuntu 24.04
 - OS client Windows 10
 
