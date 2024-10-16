@@ -67,6 +67,12 @@ Pour indiquer aux autres machines le nom du serveur sur le réseau.
 Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple SRVLX01)
 - 127.0.1.1	SRVLX01
 
+Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci dessous).
+- 172.16.10.20	 CLIWIN01
+- 172.16.10.30	 CLILIN01
+  
+Une foi terminer, sauvegarder puis fermer
+
 Faite un redémarrage de la machine pour prendre en compte le nouveau nom.
 - reboot
   
