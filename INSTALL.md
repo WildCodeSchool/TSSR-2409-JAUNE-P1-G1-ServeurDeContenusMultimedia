@@ -21,16 +21,21 @@ Nous allons éditer le fichier de la carte réseau
   
 #### Dans le fichier, en dessous de the loopback network interface. Modifier la carte réseaux primerais et rajouter la secondaire (Nat).
 
-#  The primary network interface
+-# The primary network interface
+
 Auto enp0s3
+
 Iface enp0s3 inet static
-	address 172.16.10.10
-	netmask 255.255.255.0
+	
+ address 172.16.10.10
+	
+ netmask 255.255.255.0
 
-#  the secondary network interface
+-# the secondary network interface
+
 Auto enp0s8
-Iface enp0s8 inet dhcp
 
+Iface enp0s8 inet dhcp
 
 
 # **Installation de Plex sur Debian 12**
