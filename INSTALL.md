@@ -20,7 +20,7 @@ Nous allons éditer le fichier de la carte réseau
 -	sudo nano /etc/network/interfaces
 
 
-# **Doc Admin installation de Plex sur Debian 12**
+# **Installation de Plex sur Debian 12**
  
 ## **Mettre à jour le système Debian avant l'installation de Plex**
  
