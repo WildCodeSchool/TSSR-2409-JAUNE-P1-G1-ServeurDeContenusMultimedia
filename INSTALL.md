@@ -6,9 +6,19 @@
 - OS client Ubuntu 24.04
 - OS client Windows 10
 
+# Configuration du serveur Debian 12
 
-## Étapes d'installation & configuration 
-----------
+### Visualiser la configuration réseau actuelle :
+
+Afficher la configuration réseau actuel de la machine.
+-	ip a
+  
+Puis trouver l'interface correspondante à la carte réseau connectée au réseau local. 
+
+### Définir une adresse IP fixe :
+Nous allons éditer le fichier de la carte réseau
+-	sudo nano /etc/network/interfaces
+
 
 # **Doc Admin installation de Plex sur Debian 12**
  
