@@ -36,8 +36,8 @@ Dans un soucis de vouloir faire les choses correctement, nous nous sommes basés
 Cela nous a fait perdre plusieurs heures précieuses et cela nous a obligé à recommencer sur une VM Debian de zéro.
 
 
-### VM Serveur 
-Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou peu d'informations sur le noeud du problème. À cela s'ajoute une déconnexion de la carte réseau NAT de la VM qui nous a fait perdre un temps considérable en plus de générer de la frustration.  
+### VM Serveur & Connexion Ubuntu
+Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou peu d'informations sur le noeud du problème. À cela s'ajoute une déconnexion de la carte réseau NAT de la VM qui nous a fait perdre un temps considérable en plus de générer de la frustration. Par ailleurs, 
 
 ### L'installation Plex
 Évoqué ci-dessus, l'isntalaltion du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tounés vers d'autres documentations. Cependant, la plupart des sources n'indiquaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
