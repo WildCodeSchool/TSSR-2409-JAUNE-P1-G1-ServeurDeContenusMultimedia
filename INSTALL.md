@@ -13,7 +13,7 @@
 Afficher la configuration réseau actuel de la machine.
 - ip a
   
-Puis trouver l'interface correspondante à la carte réseau connectée au réseau local. 
+Puis trouver l'interface correspondante à la carte réseau connectée au réseau local et Nat. 
 
 ## Définir une adresse IP fixe :
 Nous allons éditer le fichier de la carte réseau
