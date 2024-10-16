@@ -2,26 +2,26 @@
 
 ## Pré-requis techniques
 - Virtualbox
-- Os serveur Debian 
+- Os serveur Debian (
 - OS client Ubuntu 24.04
 - OS client Windows 10
 
 # Configuration du serveur Debian 12
 
-### Visualiser la configuration réseau actuelle :
+## Visualiser la configuration réseau actuelle :
 
 Afficher la configuration réseau actuel de la machine.
 - ip a
   
 Puis trouver l'interface correspondante à la carte réseau connectée au réseau local. 
 
-### Définir une adresse IP fixe :
+## Définir une adresse IP fixe :
 Nous allons éditer le fichier de la carte réseau
 - sudo nano /etc/network/interfaces
   
 Dans le fichier, en dessous de the loopback network interface. Modifier la carte réseaux primerais et rajouter la secondaire (Nat).
 
--# The primary network interface
+- #The primary network interface
 
 Auto enp0s3
 
@@ -31,7 +31,7 @@ Iface enp0s3 inet static
 	
  netmask 255.255.255.0
 
--# the secondary network interface
+- #The secondary network interface
 
 Auto enp0s8
 
@@ -39,16 +39,32 @@ Iface enp0s8 inet dhcp
 
 Une foi terminer, sauvegarder puis fermer le fichier.
 
-Puis redémarré le service qui gère le réseau.
+## Visualiser la nouvelle configuration réseau :
+
+Redémarré le service qui gère le réseau.
 - Systemectl restart networking
 
-### Visualiser la nouvelle configuration réseau :
-
-On vérifie la nouvelle configuration réseaux 
+On vérifie la nouvelle configuration réseaux.
 - Ip a
   
-Vous pouvez voir que les 2 cartes réseaux ont été modifier 
+Vous pouvez voir que les 2 cartes réseaux ont été modifier.
 
+Vérifier que vous savez de la connexion au réseau.
+- ping 8.8.8.8
+
+## Renommer la machine :
+
+Pour changer le nom de la machine.
+- Sudo nano /etc/hostname
+  
+Puis mettez un nouveau nom (par exemple SRVLX01)
+
+Une fois changé, sauvegarder puis fermer.
+
+Faite un redémarrage de la machine pour prendre en compte le nouveau nom
+- reboot
+  
+Une foi redémarrer, le nouveau nom de la machine apparaît.
 
 # **Installation de Plex sur Debian 12**
  
