@@ -61,12 +61,12 @@ Puis mettez un nouveau nom (par exemple SRVLX01)
 
 Une fois changé, sauvegarder puis fermer.
 
-Faite un redémarrage de la machine pour prendre en compte le nouveau nom
+Faite un redémarrage de la machine pour prendre en compte le nouveau nom.
 - reboot
   
 Une foi redémarrer, le nouveau nom de la machine apparaît.
 
-# **Installation de Plex sur Debian 12**
+# **Installation de Plex sur serveur Debian 12**
  
 ## **Mettre à jour le système Debian avant l'installation de Plex**
  
