@@ -61,6 +61,12 @@ Puis mettez un nouveau nom (par exemple SRVLX01)
 
 Une fois changé, sauvegarder puis fermer.
 
+Pour indiquer aux autres machines le nom du serveur sur le réseau.
+- Sudo nano /etc/hosts
+  
+Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple SRVLX01)
+- 127.0.1.1	SRVLX01
+
 Faite un redémarrage de la machine pour prendre en compte le nouveau nom.
 - reboot
   
