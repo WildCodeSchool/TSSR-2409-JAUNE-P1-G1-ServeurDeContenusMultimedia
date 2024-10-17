@@ -31,7 +31,7 @@ Chaque VM devait suivre une pré-configuration précise détaillée dans le tabl
 
 Malgré une nouvelle méthodologie de travail de groupe, nous avons su nous adapter rapidement, ce qui nous a grandement aidé pour le reste des sprints. Cependant, le premier projet en groupe, nous a confronté de nombreuses fois à des soucis sur le plan technique. Tout d'abord un premier problème logistique pour exporter des VMs configurées par Baudouin; lié à un manque d'informations de notre part. Puis, lors de l'installation du service Plex Media Server, nous avons fait face à 3 problèmes majeurs.
 
-### La documentation Plex
+### [La documentation](https://support.plex.tv/articles/) Plex
 Dans un souci de vouloir faire les choses correctement, nous nous sommes basés sur la documentation de Plex pour son installation sur notre serveur Debian. Les plusieurs dizaines d'articles présents dans la catégorie Plex Media Server, et un suivi scrupulueux des étapes d'installation nous ne parvenions toujours pas à installer le service. Après plusieurs essais et approches différentes via la documentation officielle, nous avons cherché d'autres sources afin de réussir.
 Cela nous a fait perdre plusieurs heures précieuses et cela nous a obligé à recommencer sur une VM Debian de zéro.
 
