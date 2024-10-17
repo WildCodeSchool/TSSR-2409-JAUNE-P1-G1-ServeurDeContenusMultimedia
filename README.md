@@ -1,8 +1,8 @@
 # TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia
 
 ## Présentation du projet
-L'**objectif principal** du projet est de créer un serveur et d'y installer un service qui agira comme une palteforme centralisée pour stocker, organiser et diffuser divers types de médias.
-L'**objectif secondaire** est de mettre en place la configuration avancée des bibliothèques de médias et des métadonnées. Ce projet pourra servir dans le futur comme base, pour faire fonctionner un serveur NAS dedié à la gestion de fichiers multimédias. 
+L'**objectif principal** du projet est de créer un serveur et d'y installer un service qui agira comme une plateforme centralisée pour stocker, organiser et diffuser divers types de médias.
+L'**objectif secondaire** est de mettre en place la configuration avancée des bibliothèques de médias et des métadonnées. Ce projet pourra servir dans le futur comme base, pour faire fonctionner un serveur NAS dédié à la gestion de fichiers multimédias. 
 
 ## Introduction : 
 Dans un monde où la consommation de contenus multimédias ne cesse d’augmenter, il devient essentiel pour les entreprises et les particuliers de disposer d'une solution centralisée pour gérer leurs médias numériques. Ce projet répond à ce besoin en proposant une plateforme flexible et performante, capable de s'adapter à différents environnements et besoins.
@@ -29,18 +29,18 @@ Chaque VM devait suivre une pré-configuration précise détaillée dans le tabl
 
 ## Difficultés rencontrées
 
-Malgré une nouvelle méthodologie de travail de groupe, nous avons su nous adapter rapidement, ce qui nous a grandement aidé pour le reste des sprints. Cependant, le premier projet en groupe, nous a confronté de nombreuses fois à des soucis sur le plan technique. Tout d'abord un premier problème logistique pour exporter des VMs configurées par Baudouin; lié à un manque d'information de notre part. Puis, lors de l'installation du service Plex Media Server, nous avons fait face à 3 problèmes majeurs.
+Malgré une nouvelle méthodologie de travail de groupe, nous avons su nous adapter rapidement, ce qui nous a grandement aidé pour le reste des sprints. Cependant, le premier projet en groupe, nous a confronté de nombreuses fois à des soucis sur le plan technique. Tout d'abord un premier problème logistique pour exporter des VMs configurées par Baudouin; lié à un manque d'informations de notre part. Puis, lors de l'installation du service Plex Media Server, nous avons fait face à 3 problèmes majeurs.
 
 ### La documentation Plex
-Dans un soucis de vouloir faire les choses correctement, nous nous sommes basés sur la documentation de Plex pour son installation sur notre serveur Deabian. Les plusieurs dizaines d'articles présents dans la catégories Plex Media Server, et un suivi scrupulueux des étapes d'installation nous ne parvenions pas à installer le service. Après plusieurs essais et approches différentes via la documentation officielle, nous avons cherché d'autres sources afin de réussir.
+Dans un souci de vouloir faire les choses correctement, nous nous sommes basés sur la documentation de Plex pour son installation sur notre serveur Debian. Les plusieurs dizaines d'articles présents dans la catégorie Plex Media Server, et un suivi scrupulueux des étapes d'installation nous ne parvenions toujours pas à installer le service. Après plusieurs essais et approches différentes via la documentation officielle, nous avons cherché d'autres sources afin de réussir.
 Cela nous a fait perdre plusieurs heures précieuses et cela nous a obligé à recommencer sur une VM Debian de zéro.
 
 
 ### VM Serveur & Connexion Ubuntu
-Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou peu d'informations sur le noeud du problème. En effet, la très peu de d'informations récentes existent pour une installation de Plex sur un serveur Debian. Les utilisateurs de Plex utilisant majoritairement d'autres configurations, comme par exemple [Docker](https://www.docker.com/) sur un serveur NAS privé. Par ailleurs, des arrêts intempestifs de connexion de la carte réseau interne sur Ubuntu 24.04 LTS a conduit à des pertes de temps considérables. Ce problème survenant en fin de sprint 1, nous a handicapé jusqu'à la veille de la présentation du sprint n°2.  
+Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou bien peu d'informations sur le noeud du problème. En effet, le manque de sujets/topics pour une installation de Plex sur un serveur Debian n'a pas rednu la tâche de débogage facile. Les utilisateurs de Plex utilisant majoritairement d'autres configurations, comme par exemple [Docker](https://www.docker.com/) sur un serveur NAS privé. Par ailleurs, des arrêts intempestifs de connexion de la carte réseau interne sur Ubuntu 24.04 LTS a conduit à des pertes de temps considérables. Ce problème survenant en fin de sprint 1, nous a handicapé jusqu'à la veille de la présentation du sprint n°2.  
 
 ### L'installation Plex
-Évoqué ci-dessus, l'isntalaltion du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tounés vers d'autres documentations. Cependant, la plupart des sources n'indiquaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
+Évoqué ci-dessus, l'installation du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tounés vers d'autres documentations. Cependant, la plupart des sources n'indiquaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
 
 ## Solutions/Alternatives trouvées :
 
