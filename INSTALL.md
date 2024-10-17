@@ -21,6 +21,8 @@ Nous allons éditer le fichier de la carte réseau
   
 Dans le fichier, en dessous de the loopback network interface. Modifier la carte réseaux primerais et rajouter la secondaire (Nat).
 
+[Debian12 IP](IMAGES/Image1Debian12.png)
+
 - #The primary network interface
 
 Auto enp0s3
