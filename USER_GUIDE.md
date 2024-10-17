@@ -61,8 +61,8 @@ Permet de voir les musiques que vous savez dans votre bibliothèque Musique.
 Permet de voir les photos que vous savez dans votre bibliothèque Photos.
 
 ## Utilisation avancée de Plex :
-Sur l’écran d'accueil, vous savez la barre latérale de navigation sur le côté gauche de l'application Web. Tous en bas, vous pouvez vois le « Plus » avec une flèche.
-En cliquant dessus cette fonctionnalité vous permet de personnaliser selon vos préférence le menu.
+Sur l’écran d'accueil, vous savez la barre latérale de navigation sur le côté gauche de l'application Web. Tout en bas, vous pouvez voir le « Plus » avec une flèche.
+En cliquant dessus, cette fonctionnalité vous permet de personnaliser selon vos préférences le menu.
 
 ## FAQ :
 
