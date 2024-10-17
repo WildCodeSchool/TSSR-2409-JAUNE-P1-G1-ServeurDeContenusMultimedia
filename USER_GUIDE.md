@@ -62,8 +62,6 @@ Permet de voir les musiques que vous savez dans votre bibliothèque Musique.
 Permet de voir les photos que vous savez dans votre bibliothèque Photos.
 
 
-## Utilisation avancée :
-
 
 ## FAQ :
 
