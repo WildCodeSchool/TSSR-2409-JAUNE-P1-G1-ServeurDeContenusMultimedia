@@ -54,6 +54,7 @@ Malgré la frustration, les nombreuses installations échouées de Plex, nous on
 L'installation est très simple à conditions de suivre le bon chemin. Choisir la documentation alternative de J.James nous a permis de faire une installation du service en moins de dix minutes montre en main.  Nous avons pu finaliser l'installation et la configuration de Plex via le WebGUI. C'est grâce à cette interface côté VM client que nous avons pu atteindre notre objectif secondaire. Cette fois-ci la documentation officielle a été utile dans la configuration avancée du service.
 
 
-## Améliorations trouvées :
+## Améliorations proposées :
 - Une première amélioration possible serait de sécuriser la connexion via url de HTTP à HTTPS. Cela serait une priorité même si on utiliserait Plex en local uniquement.
-- Changer de logiciel pour Jellyfin, une alternative open source  
+- Selectionner et installer manuellement des agents de métadonnées supplémentaires, par exemple [Colima](https://github.com/defract/Colima.bundle)  pour les amoureux de documentaires ou [Seasnap](https://github.com/seanap/Plex-Audiobook-Guide) pour les audio-livres.
+- Changer de service pour [Jellyfin](https://jellyfin.org/), une alternative en logiciel libre sous licence GNU GPL
