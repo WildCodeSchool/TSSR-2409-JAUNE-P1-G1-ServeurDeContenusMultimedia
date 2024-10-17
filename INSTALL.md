@@ -67,9 +67,12 @@ Pour indiquer aux autres machines le nom du serveur sur le réseau.
 - Sudo nano /etc/hosts
   
 Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple SRVLX01)
+
+![Debian12nom](IMAGES/Image2Debian12.png)
+
 - 127.0.1.1	SRVLX01
 
-Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci dessous).
+Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci dessus).
 - 172.16.10.20	 CLIWIN01
 - 172.16.10.30	 CLILIN01
   
