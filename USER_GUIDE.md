@@ -32,6 +32,9 @@
 
 ## Utilisation de base de Plex :
 
+IMAGES/Image1Plex.png
+
+
 ### Home : 
 Votre écran d'accueil est votre point de départ pour Plex, qu'il s'agisse de trouver du contenu récemment ajouté ou de vous permettre de choisir un type particulier de média à afficher.
 
