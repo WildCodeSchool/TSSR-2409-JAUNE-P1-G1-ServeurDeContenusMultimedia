@@ -69,7 +69,27 @@ En cliquant dessus cette fonctionnalité vous permet de personnaliser selon vos 
 
 #### Que faire si je n’arrive pas à me connecter à Plex avec le lien ?
 - Vérifier bien que vous possédez une connexion internet.
-- Recharger la page pour rafraichir le contenu. 
 - Dans la barre d’adresse avec le lien. Cliquer dessus, puis faite entrer pour relancer la connexion.
+
+#### Comment sauvegarder ma bibliothèque Plex ?
+- Pour sauvegarder votre bibliothèque Plex, il suffit de copier les fichiers de configuration et les bases de données dans un emplacement sécurisé :
+- Les fichiers de base de Plex se trouvent généralement ici :
+- Sous Linux : /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/
+
+### Comment configurer des utilisateurs sur Plex ?
+- Plex permet de partager votre bibliothèque avec d'autres utilisateurs via Plex Home :
+- Dans l'interface web, allez dans Paramètres > Utilisateurs & Partage.
+- Invitez des utilisateurs en entrant leur adresse e-mail ou nom d'utilisateur Plex.
+- Vous pouvez contrôler les autorisations et limiter l'accès à certaines bibliothèques ou fonctionnalités (comme le contrôle parental).
+
+#### Comment corriger les problèmes de buffering sur Plex ?
+- Le buffering peut être causé par plusieurs facteurs, comme une connexion internet lente ou un problème de transcodage. Voici quelques solutions :
+- Réduire la qualité du streaming : Baissez la qualité de la vidéo dans les paramètres du lecteur.
+- Optimiser les vidéos pour la diffusion : Vous pouvez transcoder ou optimiser les vidéos en avance via l'interface de Plex pour les rendre plus légères à diffuser.
+- Améliorer la connexion réseau : Assurez-vous que votre appareil et sur une connexion rapide et stable. Utilisez un câble Ethernet si possible plutôt que le Wi-Fi
+
+
+  
+
 
 
