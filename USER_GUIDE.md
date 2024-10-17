@@ -67,4 +67,9 @@ Permet de voir les photos que vous savez dans votre bibliothèque Photos.
 
 ## FAQ :
 
+#### Que faire si je n’arrive pas à me connecter à Plex avec le lien ?
+- Vérifier bien que vous possédez une connexion interne.
+- Recharger la page pour rafraichir le contenu. 
+- Dans la barre d’adresse avec le lien. Cliquer dessus, puis faite entrer pour relancer la connexion.
+
 
