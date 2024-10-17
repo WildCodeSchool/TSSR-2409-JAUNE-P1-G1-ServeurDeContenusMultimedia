@@ -55,4 +55,5 @@ L'installation est très simple à conditions de suivre le bon chemin. Choisir l
 
 
 ## Améliorations trouvées :
-Une première amélioration possible serait de sécuriser la connexion via url de HTTP à HTTPS. 
+- Une première amélioration possible serait de sécuriser la connexion via url de HTTP à HTTPS. Cela serait une priorité même si on utiliserait Plex en local uniquement.
+- Changer de logiciel pour Jellyfin, une alternative open source  
