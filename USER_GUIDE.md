@@ -44,6 +44,23 @@ Permet de voir en direct ce que propose les chaînes de TV.
 #### Movies et Shows :
 Permet de vous montrer différents films et shows du moment.
 
+#### Découvrez :
+Permet de découvrir les films les plus regardés de la semaine, Bandes-annonces populaires, tendance, bientôt disponible, etc.
+
+#### Music proposé par TIDAL :
+Tidal est une plateforme de musique et de divertissement disponible en streaming. Le service propose une qualité audio supérieure.
+Films :
+Permet de voir les films que vous savez dans votre bibliothèque Films.
+
+#### Série TV :
+Permet de voir les séries TV que vous savez dans votre bibliothèque Série TV.
+
+#### Musique :
+Permet de voir les musiques que vous savez dans votre bibliothèque Musique.
+
+#### Photos :
+Permet de voir les photos que vous savez dans votre bibliothèque Photos.
+
 
 ## Utilisation avancée :
 
