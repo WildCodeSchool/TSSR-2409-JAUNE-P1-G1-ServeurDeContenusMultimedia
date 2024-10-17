@@ -49,7 +49,6 @@ Permet de découvrir les films les plus regardés de la semaine, Bandes-annonces
 
 ### Music proposé par TIDAL :
 Tidal est une plateforme de musique et de divertissement disponible en streaming. Le service propose une qualité audio supérieure.
-Films :
 Permet de voir les films que vous savez dans votre bibliothèque Films.
 
 ### Série TV :
