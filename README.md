@@ -37,7 +37,7 @@ Cela nous a fait perdre plusieurs heures précieuses et cela nous a obligé à r
 
 
 ### VM Serveur & Connexion Ubuntu
-Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou peu d'informations sur le noeud du problème. À cela s'ajoute une déconnexion de la carte réseau NAT de la VM qui nous a fait perdre un temps considérable en plus de générer de la frustration. Par ailleurs, 
+Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou peu d'informations sur le noeud du problème. En effet, la très peu de d'informations récentes existent pour une installation de Plex sur un serveur Debian. Les utilisateurs de Plex utilisant majoritairement d'autres configurations, comme par exemple [Docker](https://www.docker.com/) sur un serveur NAS privé. Par ailleurs, des arrêts intempestifs de connexion de la carte réseau interne sur Ubuntu 24.04 LTS a conduit à des pertes de temps considérables. Ce problème survenant en fin de sprint 1, nous a handicapé jusqu'à la veille de la présentation du sprint n°2.  
 
 ### L'installation Plex
 Évoqué ci-dessus, l'isntalaltion du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tounés vers d'autres documentations. Cependant, la plupart des sources n'indiquaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
@@ -47,11 +47,11 @@ Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Nota
 ### Documentation Plex
 Après de nombreux tests, nous avons choisi de suivre la documentation de [Joshua James](https://twitter.com/joshism_j) sur le site https://linuxcapable.com/. C'est la seule documentation qui, en plus d'être claire et concise, explique et propose des éléments supplémentaires comme la configurations des droits de l'utilisateur plex sur la VM serveur. 
 
-### VM Serveur
-Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapté.s à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liés aux lignes de     commandes exécutées, soit par une explication trouvé sur des forums comme [Stack Overflow](https://stackoverflow.com/), soit en examinant scrupuleusement la syntaxe des commandes. 
+### VM Serveur & Connexion Ubuntu
+Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapté.s à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liés aux lignes de     commandes exécutées, soit par une explication trouvé sur des forums comme [Stack Overflow](https://stackoverflow.com/), soit en examinant scrupuleusement la syntaxe des commandes. Pour tous les problèmes liés à la connectivité de la carte réseau interne, nous avons contacté notre formateur qui n'a pas pu, à ce jour, trouver une solution pérenne. La piste d'un problème lié à l'hyperviseur VirtualBox est la plus probable.
 
 ### Installation Plex
-L'installation est très simple à conditions de suivre le bon chemin. Choisir la documentation alternative de J.James nous a permis de faire une installation du service en moins de dix minutes montre en main.  Nous avons pu finaliser l'installation et la configuration de Plex via le WebGUI. C'est grâce à cette interface coté VM client que nous avons pu atteindre notre objectif secondaire.  
+L'installation est très simple à conditions de suivre le bon chemin. Choisir la documentation alternative de J.James nous a permis de faire une installation du service en moins de dix minutes montre en main.  Nous avons pu finaliser l'installation et la configuration de Plex via le WebGUI. C'est grâce à cette interface coté VM client que nous avons pu atteindre notre objectif secondaire. Cette fois-ci la docupmentation officielle a été utile dans la configuration avancée du service.
 
 
 ## Améliorations trouvées :
