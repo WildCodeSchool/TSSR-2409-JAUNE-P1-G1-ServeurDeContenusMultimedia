@@ -30,7 +30,19 @@
 #### Cliquez sur le bouton finish pour accéder au tableau de bord Plex.
 
 
-## Utilisation de base :
+## Utilisation de base de Plex :
+
+#### Home : 
+Votre écran d'accueil est votre point de départ pour Plex, qu'il s'agisse de trouver du contenu récemment ajouté ou de vous permettre de choisir un type particulier de média à afficher.
+
+#### Watchlist :
+Ajouter des films et séries a votre Watchlist pour les regarder plus tard. Regarder le film ou la série présent dans la liste ou les marquer comme vu les retirera de la liste. 
+
+#### TV en direct : 
+Permet de voir en direct ce que propose les chaînes de TV.
+
+#### Movies et Shows :
+Permet de vous montrer différents films et shows du moment.
 
 
 ## Utilisation avancée :
