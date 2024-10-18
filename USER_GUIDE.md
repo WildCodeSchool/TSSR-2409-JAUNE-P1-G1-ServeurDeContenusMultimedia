@@ -1,4 +1,4 @@
-# Doc utilisateur : Accéder à l’interface Web de Plex sur votre ordinateur
+# Documentation utilisateur : Accéder à l’interface Web de Plex sur votre ordinateur
 
 ## Étape 1 : Accéder à l’interface Web
 
