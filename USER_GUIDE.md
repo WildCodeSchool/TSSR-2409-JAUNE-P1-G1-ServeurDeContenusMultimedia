@@ -2,35 +2,35 @@
 
 ## Étape 1 : Accéder à l’interface Web
 
-#### Pour accéder à l'interface Web, ouvrez votre navigateur web et taper dans la barre d’adresse :
+Pour accéder à l'interface Web, ouvrez votre navigateur web et tapez dans la barre d’adresse :
 
 ![Plex menu](IMAGES/Image3Plex.png)
 
 - http://172.16.10.10:32400/web
 
-#### Vous pouvez désormais vous connecter en utilisant un compte de réseau social existant répertorié ci-dessus ou avec votre e-mail pour créer un nouveau compte si vous êtes nouveau sur Plex :
+Vous pouvez désormais vous connecter en utilisant un compte de réseau social existant répertorié ci-dessus ou avec votre e-mail pour créer un nouveau compte si vous êtes nouveau sur Plex :
 
 ## Étape 2 : Comprendre Plex
 
-#### La première page de configuration explique brièvement Plex et son fonctionnement :
+La première page de configuration explique brièvement Plex et son fonctionnement :
 
 ## Étape 3 : Pass Plex facultatif
 
-#### Ignorer cette étape, cliquez sur le X dans le coin supérieur droit puis next :
+Ignorer cette étape, cliquez sur le X dans le coin supérieur droit puis next :
 
 ## Étape 4 : Configuration du serveur
 
-#### Configurez le nom de votre serveur si vous le souhaitez. Vous avez également la possibilité de désactiver l'option Autoriser l'accès à mes médias en dehors de chez moi. Par défaut, l'accès aux médias extérieurs est activé ; décochez la fonction si vous ne prévoyez pas de le faire.
-#### Une fois configuré, cliquez sur le bouton next.
+Configurez le nom de votre serveur si vous le souhaitez. Vous avez également la possibilité de désactiver l'option Autoriser l'accès à mes médias en dehors de chez moi. Par défaut, l'accès aux médias extérieurs est activé ; décochez la fonction si vous ne prévoyez pas de le faire.
+Une fois configuré, cliquez sur le bouton **Next**.
 
 ## Étape 5 : Bibliothèque multimédia
 
-#### La page Médiathèque vous donne la possibilité de pré-ajouter vos répertoires multimédias. Mais nous allons voir sa plus tard.
+La page Médiathèque vous donne la possibilité de pré-ajouter vos répertoires multimédias. Mais nous allons voir cela plus tard.
 
 ## Étape 6 : Menu Plex
 
-#### Appuyez sur le bouton next pour terminer la configuration initiale. L'écran suivant vous informe que tout est prêt.
-#### Cliquez sur le bouton finish pour accéder au tableau de bord Plex.
+Appuyez sur le bouton next pour terminer la configuration initiale. L'écran suivant vous informe que tout est prêt.
+Cliquez sur le bouton finish pour accéder au tableau de bord Plex.
 
 ![Plex menu](./IMAGES/Image1Plex.png)
 
@@ -40,13 +40,13 @@
 Votre écran d'accueil est votre point de départ pour Plex, qu'il s'agisse de trouver du contenu récemment ajouté ou de vous permettre de choisir un type particulier de média à afficher.
 
 ### Watchlist :
-Ajouter des films et séries a votre Watchlist pour les regarder plus tard. Regarder le film ou la série présent dans la liste ou les marquer comme vu les retirera de la liste. 
+Ajouter des films et séries a votre **Watchlist** pour les regarder plus tard. Regarder le film ou la série présent dans la liste ou les marquer comme vu les retirera de la liste. 
 
 ### TV en direct : 
 Permet de voir en direct ce que propose les chaînes de TV.
 
 ### Movies et Shows :
-Permet de vous montrer différents films et shows du moment.
+Permet de vous présenter différents films et shows du moment.
 
 ### Découvrez :
 Permet de découvrir les films les plus regardés de la semaine, Bandes-annonces populaires, tendance, bientôt disponible, etc.
@@ -56,34 +56,40 @@ Tidal est une plateforme de musique et de divertissement disponible en streaming
 Permet de voir les films que vous savez dans votre bibliothèque Films.
 
 ### Série TV :
-Permet de voir les séries TV que vous savez dans votre bibliothèque Série TV.
+Permet de voir les séries TV que vous avez dans votre bibliothèque Série TV.
 
 ### Musique :
-Permet de voir les musiques que vous savez dans votre bibliothèque Musique.
+Permet de voir les musiques que vous avez dans votre bibliothèque Musique.
 
 ### Photos :
-Permet de voir les photos que vous savez dans votre bibliothèque Photos.
+Permet de voir les photos que vous avez dans votre bibliothèque Photos.
 
 ## Utilisation avancée de Plex :
 
 ![Plex menu](IMAGES/Image2Plex.png)
 
-Sur l’écran d'accueil, vous savez la barre latérale de navigation sur le côté gauche de l'application Web. Tout en bas, vous pouvez voir le « Plus » avec une flèche.
+Sur l’écran d'accueil, vous avez la barre latérale de navigation sur le côté gauche de l'application Web. Tout en bas, vous pouvez voir le « Plus » avec une flèche.
 En cliquant dessus, cette fonctionnalité vous permet de personnaliser selon vos préférences le menu.
 
 ## Objectif secondaire:gestion avanceé des métadonnés et de la biblothèque.
 
-Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothéque.
+Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothèque.
+
 ![Plex menu](IMAGES/IMG_9215.jpeg)
-Ensuite selon comment vous voudrez gérer votre bibliothéque vous devrez cochez certaines cases.
+
+Ensuite selon comment vous voudrez gérer votre bibliothèque vous devrez cocher certaines cases.
+
 ![Plex menu](IMAGES/IMG_9217.jpeg)
-Concernant les métadonnés il faudra se rendre dans le menu agent.Les options peuvent différer selon le type de média mais ce sera à l'utilisateur de faire ses choix avec les différents agents additionels.
+
+Concernant les métadonnés, il faudra se rendre dans le menu **Agent**.Les options peuvent différer selon le type de média mais ce sera à l'utilisateur de faire ses choix avec les différents agents additionels.
+
 ![Plex menu](IMAGES/IMG_9219.jpeg)
+
 ## FAQ :
 
 ### Que faire si je n’arrive pas à me connecter à Plex avec le lien ?
-- Vérifier bien que vous possédez une connexion internet.
-- Dans la barre d’adresse avec le lien. Cliquer dessus, puis faite entrer pour relancer la connexion.
+- Vérifiez bien que vous disposez  d'une connexion internet.
+- Dans la barre d’adresse avec le lien. Cliquer dessus, puis appuyez sur Entrée pour relancer la connexion.
 
 ### Comment sauvegarder ma bibliothèque Plex ?
 - Pour sauvegarder votre bibliothèque Plex, il suffit de copier les fichiers de configuration et les bases de données dans un emplacement sécurisé :
