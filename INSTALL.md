@@ -11,19 +11,19 @@
 ## Visualiser la configuration réseau actuelle :
 
 Afficher la configuration réseau actuelle de la machine.
-- ip a
+> **ip a**
   
 Puis trouver l'interface correspondante à la carte réseau connectée au réseau local et NAT. 
 
 ## Définir une adresse IP fixe :
 Nous allons éditer le fichier de la carte réseau
-- sudo nano /etc/network/interfaces
+> **sudo nano /etc/network/interfaces**
   
 Dans le fichier, en dessous de  *loopback network interface*. Modifier la carte réseau primaire et rajouter la secondaire (NAT).
 
 ![Debian12 IP](IMAGES/Image1Debian12.png)
 
-- #The primary network interface
+> **#The primary network interface**
 
 auto enp0s3
 
@@ -33,7 +33,7 @@ Iface enp0s3 inet static
 	
  netmask 255.255.255.0
 
-- #The secondary network interface
+> **#The secondary network interface**
 
 auto enp0s8
 
@@ -44,42 +44,42 @@ Une fois terminé, sauvegarder puis fermer le fichier.
 ## Visualiser la nouvelle configuration réseau :
 
 Redémarrer le service qui gère le réseau.
-- systemctl restart networking
+> **systemctl restart networking**
 
 On vérifie la nouvelle configuration réseau.
-- ip a
+> **ip a**
   
 Vous pouvez voir que les 2 cartes réseau ont été modifiées.
 
 Vérifier que vous avez de la connexion au réseau.
-- ping 8.8.8.8
+> **ping 8.8.8.8**
 
 ## Renommer la machine :
 
 Pour changer le nom de la machine.
-- Sudo nano /etc/hostname
+> **Sudo nano /etc/hostname**
   
 Puis mettez un nouveau nom (par exemple SRVLX01)
 
 Une fois changé, sauvegarder puis fermer.
 
 Pour indiquer aux autres machines le nom du serveur sur le réseau.
-- Sudo nano /etc/hosts
+> **Sudo nano /etc/hosts**
   
 Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple SRVLX01)
 
 ![Debian12nom](IMAGES/Image2Debian12.png)
 
-- 127.0.1.1	SRVLX01
+> **127.0.1.1	SRVLX01**
 
 Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci-dessus).
-- 172.16.10.20	 CLIWIN01
-- 172.16.10.30	 CLILIN01
+> **172.16.10.20	 CLIWIN01**
+> **172.16.10.30	 CLILIN01**
   
 Une fois terminé, sauvegarder puis fermer
 
 Faites un redémarrage de la machine pour prendre en compte le nouveau nom.
-- reboot
+> **reboot**
   
 Une fois redémarrée, le nouveau nom de la machine apparaît.
 
