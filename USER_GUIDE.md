@@ -73,7 +73,8 @@ En cliquant dessus, cette fonctionnalité vous permet de personnaliser selon vos
 
 ## Objectif secondaire:gestion avanceé des métadonnés et de la biblothèque.
 
-Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothéque
+Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothéque.
+![Plex menu](IMAGES/IMG_9215.jpeg)
 
 ## FAQ :
 
