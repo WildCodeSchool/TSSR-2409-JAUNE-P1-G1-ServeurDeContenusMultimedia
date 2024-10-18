@@ -11,7 +11,8 @@
 ## Visualiser la configuration réseau actuelle :
 
 Afficher la configuration réseau actuelle de la machine.
-> **`ip a`**
+
+`ip a`
   
 Puis trouver l'interface correspondante à la carte réseau connectée au réseau local et NAT. 
 
