@@ -10,7 +10,7 @@
 
 ## Visualiser la configuration réseau actuelle :
 
-Afficher la configuration réseau actuel de la machine.
+Afficher la configuration réseau actuelle de la machine.
 - ip a
   
 Puis trouver l'interface correspondante à la carte réseau connectée au réseau local et Nat. 
@@ -19,7 +19,7 @@ Puis trouver l'interface correspondante à la carte réseau connectée au résea
 Nous allons éditer le fichier de la carte réseau
 - sudo nano /etc/network/interfaces
   
-Dans le fichier, en dessous de the loopback network interface. Modifier la carte réseau primaire et rajouter la secondaire (Nat).
+Dans le fichier, en dessous de  *loopback network interface*. Modifier la carte réseau primaire et rajouter la secondaire (Nat).
 
 ![Debian12 IP](IMAGES/Image1Debian12.png)
 
@@ -39,19 +39,19 @@ Auto enp0s8
 
 Iface enp0s8 inet dhcp
 
-Une foi terminer, sauvegarder puis fermer le fichier.
+Une fois terminée, sauvegarder puis fermer le fichier.
 
 ## Visualiser la nouvelle configuration réseau :
 
-Redémarré le service qui gère le réseau.
-- Systemectl restart networking
+Redémarrer le service qui gère le réseau.
+- Systemctl restart networking
 
-On vérifie la nouvelle configuration réseaux.
+On vérifie la nouvelle configuration réseau.
 - Ip a
   
-Vous pouvez voir que les 2 cartes réseaux ont été modifier.
+Vous pouvez voir que les 2 cartes réseau ont été modifiées.
 
-Vérifier que vous savez de la connexion au réseau.
+Vérifier que vous avez de la connexion au réseau.
 - ping 8.8.8.8
 
 ## Renommer la machine :
@@ -72,16 +72,16 @@ Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple S
 
 - 127.0.1.1	SRVLX01
 
-Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci dessus).
+Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci-dessus).
 - 172.16.10.20	 CLIWIN01
 - 172.16.10.30	 CLILIN01
   
-Une foi terminer, sauvegarder puis fermer
+Une fois terminée, sauvegarder puis fermer
 
-Faite un redémarrage de la machine pour prendre en compte le nouveau nom.
+Faites un redémarrage de la machine pour prendre en compte le nouveau nom.
 - reboot
   
-Une foi redémarrer, le nouveau nom de la machine apparaît.
+Une fois redémarrée, le nouveau nom de la machine apparaît.
 
 # **Installation de Plex sur serveur Debian 12**
  
@@ -136,9 +136,9 @@ Par défaut, le service Plex Media Server devrait démarrer automatiquement. Pou
 
 ![Serveur actif](./IMAGES/serverOk.png)
 
-## **Objectif Secondaire:Configuration avancéé des métadonnées et de la bibliothéques**.
+## **Objectif Secondaire:Configuration avancée des métadonnées et des bibliothèques**.
 
-Lorsque l'on installe plex sur notre serveur,il y a un fichier xml nommé preferences.Celui ci a un impact directement sur les métadonnés et la bibliothéque de plex.
+Lorsque l'on installe plex sur notre serveur,il y a un fichier xml nommé préferences. Celui-ci a un impact directement sur les métadonnées et la bibliothèque de plex.
 ![Plex menu](IMAGES/IMG_9221.jpeg)
 
 Par exemple pour trier les albums selon certains paramètres que vous voudrez (année,titre...)il faudra se rendre dans preferences.xml et faire  <Preferences ... AlbumSort="year:desc" ... > cela aura un impact directement sur plex.
