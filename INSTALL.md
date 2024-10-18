@@ -13,19 +13,19 @@
 Afficher la configuration réseau actuelle de la machine.
 - ip a
   
-Puis trouver l'interface correspondante à la carte réseau connectée au réseau local et Nat. 
+Puis trouver l'interface correspondante à la carte réseau connectée au réseau local et NAT. 
 
 ## Définir une adresse IP fixe :
 Nous allons éditer le fichier de la carte réseau
 - sudo nano /etc/network/interfaces
   
-Dans le fichier, en dessous de  *loopback network interface*. Modifier la carte réseau primaire et rajouter la secondaire (Nat).
+Dans le fichier, en dessous de  *loopback network interface*. Modifier la carte réseau primaire et rajouter la secondaire (NAT).
 
 ![Debian12 IP](IMAGES/Image1Debian12.png)
 
 - #The primary network interface
 
-Auto enp0s3
+auto enp0s3
 
 Iface enp0s3 inet static
 	
@@ -35,19 +35,19 @@ Iface enp0s3 inet static
 
 - #The secondary network interface
 
-Auto enp0s8
+auto enp0s8
 
 Iface enp0s8 inet dhcp
 
-Une fois terminée, sauvegarder puis fermer le fichier.
+Une fois terminé, sauvegarder puis fermer le fichier.
 
 ## Visualiser la nouvelle configuration réseau :
 
 Redémarrer le service qui gère le réseau.
-- Systemctl restart networking
+- systemctl restart networking
 
 On vérifie la nouvelle configuration réseau.
-- Ip a
+- ip a
   
 Vous pouvez voir que les 2 cartes réseau ont été modifiées.
 
@@ -76,7 +76,7 @@ Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles
 - 172.16.10.20	 CLIWIN01
 - 172.16.10.30	 CLILIN01
   
-Une fois terminée, sauvegarder puis fermer
+Une fois terminé, sauvegarder puis fermer
 
 Faites un redémarrage de la machine pour prendre en compte le nouveau nom.
 - reboot
@@ -136,12 +136,12 @@ Par défaut, le service Plex Media Server devrait démarrer automatiquement. Pou
 
 ![Serveur actif](./IMAGES/serverOk.png)
 
-## **Objectif Secondaire:Configuration avancée des métadonnées et des bibliothèques**.
+## **Objectif Secondaire: Configuration avancée des métadonnées et des bibliothèques**.
 
-Lorsque l'on installe plex sur notre serveur,il y a un fichier xml nommé préferences. Celui-ci a un impact directement sur les métadonnées et la bibliothèque de plex.
+Lorsque l'on installe Plex sur notre serveur,il y a un fichier xml nommé preferences. Celui-ci a un impact directement sur les métadonnées et la bibliothèque de Plex.
 ![Plex menu](IMAGES/IMG_9221.jpeg)
 
-Par exemple pour trier les albums selon certains paramètres que vous voudrez (année,titre...)il faudra se rendre dans preferences.xml et faire  <Preferences ... AlbumSort="year:desc" ... > cela aura un impact directement sur plex.
+Par exemple pour trier les albums selon certains paramètres que vous voudrez (année, titre...)il faudra se rendre dans preferences.xml et faire  <Preferences ... AlbumSort="year:desc" ... > cela aura un impact directement sur Plex.
 ![Plex menu](IMAGES/IMG_9222.jpeg)
 ----------
 
