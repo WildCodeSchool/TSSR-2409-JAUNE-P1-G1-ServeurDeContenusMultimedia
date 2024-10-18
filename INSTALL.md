@@ -152,8 +152,9 @@ Par exemple pour trier les albums selon certains paramètres que vous voudrez (a
 ### Comment mettre à jour Plex Media Server ?
 Plex propose souvent des mises à jour pour améliorer la stabilité, la sécurité et ajouter de nouvelles fonctionnalités :
 Sous Linux : Utilisez les gestionnaires de paquets :
-> **bash**
+
 > **sudo apt update**
+
 > **sudo apt upgrade plexmediaserver**
 
 
