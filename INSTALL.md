@@ -74,6 +74,7 @@ Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple S
 
 Rajoutez en dessous les autres machines si vous souhaitez communiquer avec elles (exemple ci-dessus).
 > **172.16.10.20	 CLIWIN01**
+
 > **172.16.10.30	 CLILIN01**
   
 Une fois terminé, sauvegarder puis fermer
