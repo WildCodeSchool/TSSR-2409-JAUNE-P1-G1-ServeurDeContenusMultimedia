@@ -71,6 +71,10 @@ Permet de voir les photos que vous savez dans votre bibliothèque Photos.
 Sur l’écran d'accueil, vous savez la barre latérale de navigation sur le côté gauche de l'application Web. Tout en bas, vous pouvez voir le « Plus » avec une flèche.
 En cliquant dessus, cette fonctionnalité vous permet de personnaliser selon vos préférences le menu.
 
+## Objectif secondaire:gestion avanceé des métadonnés et de la biblothèque.
+
+Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothéque
+
 ## FAQ :
 
 ### Que faire si je n’arrive pas à me connecter à Plex avec le lien ?
