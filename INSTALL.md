@@ -21,7 +21,7 @@ Nous allons éditer le fichier de la carte réseau
   
 Dans le fichier, en dessous de  *loopback network interface*. Modifier la carte réseau primaire et rajouter la secondaire (NAT).
 
-![Debian12 IP](IMAGES/Image1Debian12.png)
+![Debian12 IP](./IMAGES/Image1Debian12.png)
 
 > **`#The primary network interface`**
 
@@ -68,7 +68,7 @@ Pour indiquer aux autres machines le nom du serveur sur le réseau.
   
 Nous allons modifier le nom afin qu’il soit bien pris en compte (par exemple SRVLX01)
 
-![Debian12nom](IMAGES/Image2Debian12.png)
+![Debian12nom](./IMAGES/Image2Debian12.png)
 
 > **`127.0.1.1	SRVLX01`**
 
@@ -140,11 +140,11 @@ Par défaut, le service Plex Media Server devrait démarrer automatiquement. Pou
 ## **Objectif Secondaire: Configuration avancée des métadonnées et des bibliothèques**
 
 Lorsque l'on installe Plex sur notre serveur,il y a un fichier xml nommé preferences. Celui-ci a un impact directement sur les métadonnées et la bibliothèque de Plex.
-![Plex menu](IMAGES/IMG_9221.jpeg)
+![Plex menu](./IMAGES/IMG_9221.jpeg)
 
 Par exemple pour trier les albums selon certains paramètres que vous voudrez (année, titre...)il faudra se rendre dans preferences.xml et faire  <Preferences ... AlbumSort="year:desc" ... > cela aura un impact directement sur Plex.
 
-![Plex menu](IMAGES/IMG_9222.jpeg)
+![Plex menu](./IMAGES/IMG_9222.jpeg)
 
 
 ## FAQ :
