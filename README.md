@@ -8,24 +8,23 @@ L'**objectif secondaire** est de mettre en place la configuration avancée des b
 Dans un monde où la consommation de contenus multimédias ne cesse d’augmenter, il devient essentiel pour les entreprises et les particuliers de disposer d'une solution centralisée pour gérer leurs médias numériques. Ce projet répond à ce besoin en proposant une plateforme flexible et performante, capable de s'adapter à différents environnements et besoins.
 
 ## Membres du groupe :
-| Nom                           | Sprint 1      | Sprint 2      |
-|-------------------------------|---------------|---------------|
-| Baudouin Soubrier De Gaudemar | Product Owner | Exécutant     |
-| Erwan Salomon                 | Scrum Master  | Exécutant     |
-| Marilyn Jacques-Sébastien     | Exécutant     | Scrum Master  |
-| Lamine Lican                  | Exécutant     | Product Owner |
+Nom                          |Sprint 1     |Sprint 2     
+-----------------------------|-------------|-------------
+Baudouin Soubrier De Gaudemar|Product Owner|Exécutant    
+Erwan Salomon                |Scrum Master |Exécutant    
+Marilyn Jacques-Sébastien    |Exécutant    |Scrum Master 
+Lamine Lican                 |Exécutant    |Product Owner
 
 ## Choix techniques :
 
 Le projet a deux impératifs techniques. La VM serveur doit fonctionner sous [Debian 12](https://www.debian.org/) et le logiciel de gestion de contenus doit être [Plex](https://www.plex.tv/). Pour nos VMs clients, nous pouvons utiliser tous les OS.
 Nous avons donc privilégié les OS [Windows 10](https://www.microsoft.com/fr-fr/software-download/windows10%20) et [Ubuntu 24.04 LTS](https://ubuntu.com/blog/tag/ubuntu-24-04-lts), qui sont les OS que nous avons le plus utilisé lors de notre début de formation.
 Chaque VM devait suivre une pré-configuration précise détaillée dans le tableau ci-dessous :
-|     OS       |    Nom   |            Compte           |    Mdp   |    Adresse IP   |
-|:------------:|:--------:|:---------------------------:|:--------:|:---------------:|
-|   Debian 12  |  SRVLX01 |             root            | Azerty1* | 172.16.10.10/24 |
-| Ubuntu 24.04 | CLILIN01 |     wilder (groupe sudo)    | Azerty1* | 172.16.10.20/24 |
-|  Windows 10  | CLIWIN02 | wilder (groupe admin local) | Azerty1* | 172.16.10.30/24 |
-
+OS          |Nom     |Compte                     |Mdp     |Adresse IP     
+------------|--------|---------------------------|--------|---------------
+Debian 12   |SRVLX01 |root                       |Azerty1*|172.16.10.10/24
+Ubuntu 24.04|CLILIN01|wilder (groupe sudo)       |Azerty1*|172.16.10.20/24
+Windows 10  |CLIWIN02|wilder (groupe admin local)|Azerty1*|172.16.10.30/24
 
 ## Difficultés rencontrées
 
