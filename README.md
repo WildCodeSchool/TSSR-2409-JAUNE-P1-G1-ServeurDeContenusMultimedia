@@ -41,7 +41,7 @@ Cela nous a fait perdre plusieurs heures précieuses et cela nous a obligé à r
 Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou bien peu d'informations sur le noeud du problème. En effet, le manque de sujets/topics pour une installation de Plex sur un serveur Debian n'a pas rendu la tâche de débogage facile. Les utilisateurs de Plex utilisant majoritairement d'autres configurations, comme par exemple [Docker](https://www.docker.com/) sur un serveur NAS privé. Par ailleurs, des arrêts intempestifs de connexion de la carte réseau interne sur Ubuntu 24.04 LTS a conduit à des pertes de temps considérables. Ce problème survenant en fin de sprint 1, nous a handicapé jusqu'à la veille de la présentation du sprint n°2.  
 
 ### L'installation Plex
-Évoqué ci-dessus, l'installation du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tournés vers d'autres documentations. Cependant, la plupart des sources n'indiquaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
+Évoqué ci-dessus, l'installation du service a été complexe par manque d'informations claires et compatible avec Debian 12. Après plusieurs téléchargements de versions de Plex non-compatibles, nous nous étions tournés vers d'autres documentations. Cependant, la plupart des sources ne présentaient que des étapes sommaires, sans explications ni d'alternatives à des problèmes lors de l'installation.   
 
 ## Solutions/Alternatives trouvées :
 
@@ -51,15 +51,15 @@ Après de nombreux tests, nous avons choisi de suivre la documentation de [Joshu
 ![joshua](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/linux%20capable.PNG?raw=true)
 
 ### VM Serveur & Connexion Ubuntu
-Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapter à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liées aux lignes de     commandes exécutées, soit par une explication trouvée sur des forums comme [Stack Overflow](https://stackoverflow.com/), soit en examinant scrupuleusement la syntaxe des commandes. Pour tous les problèmes liés à la connectivité de la carte réseau interne, nous avons contacté notre formateur qui n'a pas pu, à ce jour, trouver une solution pérenne. La piste d'un problème lié à l'hyperviseur VirtualBox est la plus probable.
+Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapter à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liées aux lignes de     commandes exécutées, soit par une explication trouvée sur des forums comme [Stack Overflow](https://stackoverflow.com/) ou bien en examinant scrupuleusement la syntaxe des commandes. Pour tous les problèmes liés à la connectivité de la carte réseau interne, nous avons contacté notre formateur qui n'a pas pu, à ce jour, trouver une solution pérenne. La piste d'un problème lié à l'hyperviseur VirtualBox est la plus probable.
 
 ### Installation Plex
 L'installation est très simple à conditions de suivre le bon chemin. Choisir la documentation alternative de J.James nous a permis de faire une installation du service en moins de dix minutes montre en main.  Nous avons pu finaliser l'installation et la configuration de Plex via le WebGUI. C'est grâce à cette interface côté VM client que nous avons pu atteindre notre objectif secondaire. Cette fois-ci la documentation officielle a été utile dans la configuration avancée du service.
 
 
 ## Améliorations proposées :
-- Une première amélioration possible serait de sécuriser la connexion via url de HTTP à HTTPS. Cela serait une priorité même si on utiliserait Plex en local uniquement.
-- Selectionner et installer manuellement des agents de métadonnées supplémentaires, par exemple [Colima](https://github.com/defract/Colima.bundle)  pour les amoureux de documentaires ou [Seasnap](https://github.com/seanap/Plex-Audiobook-Guide) pour les audio-livres.
+- Une première amélioration serait de sécuriser la connexion via url de HTTP à HTTPS. Cela serait une priorité même si on utiliserait Plex en local uniquement.
+- Sélectionner et installer manuellement des agents de métadonnées supplémentaires, par exemple [Colima](https://github.com/defract/Colima.bundle)  pour les amteurs de documentaires ou [Seasnap](https://github.com/seanap/Plex-Audiobook-Guide) pour les audio-livres.
 - Changer de service pour [Jellyfin](https://jellyfin.org/), une alternative en logiciel libre sous licence GNU GPL
 
   ![jellyfin](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/jellyfin.PNG?raw=true)
