@@ -1,4 +1,4 @@
-# Doc admin
+# Documentation administrateur
 
 ## Pré-requis techniques
 - Virtualbox
