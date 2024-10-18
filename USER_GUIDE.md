@@ -77,7 +77,8 @@ Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothéque.
 ![Plex menu](IMAGES/IMG_9215.jpeg)
 Ensuite selon comment vous voudrez gérer votre bibliothéque vous devrez cochez certaines cases.
 ![Plex menu](IMAGES/IMG_9217.jpeg)
-
+Concernant les métadonnés il faudra se rendre dans le menu agent.Les options peuvent différer selon le type de média mais ce sera à l'utilisateur de faire ses choix avec les différents agents additionels.
+![Plex menu](IMAGES/IMG_9219.jpeg)
 ## FAQ :
 
 ### Que faire si je n’arrive pas à me connecter à Plex avec le lien ?
