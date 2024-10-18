@@ -136,14 +136,14 @@ Par défaut, le service Plex Media Server devrait démarrer automatiquement. Pou
 
 ![Serveur actif](./IMAGES/serverOk.png)
 
-## **Objectif Secondaire: Configuration avancée des métadonnées et des bibliothèques**.
+## **Objectif Secondaire: Configuration avancée des métadonnées et des bibliothèques**
 
 Lorsque l'on installe Plex sur notre serveur,il y a un fichier xml nommé preferences. Celui-ci a un impact directement sur les métadonnées et la bibliothèque de Plex.
 ![Plex menu](IMAGES/IMG_9221.jpeg)
 
 Par exemple pour trier les albums selon certains paramètres que vous voudrez (année, titre...)il faudra se rendre dans preferences.xml et faire  <Preferences ... AlbumSort="year:desc" ... > cela aura un impact directement sur Plex.
+
 ![Plex menu](IMAGES/IMG_9222.jpeg)
-----------
 
 
 ## FAQ :
