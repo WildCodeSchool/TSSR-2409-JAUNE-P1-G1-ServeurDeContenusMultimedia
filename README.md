@@ -35,7 +35,7 @@ Malgré une nouvelle méthodologie de travail de groupe, nous avons su nous adap
 Dans un souci de vouloir faire les choses correctement, nous nous sommes basés sur la documentation de Plex pour son installation sur notre serveur Debian. Les plusieurs dizaines d'articles présents dans la catégorie Plex Media Server, et un suivi scrupulueux des étapes d'installation nous ne parvenions toujours pas à installer le service. Après plusieurs essais et approches différentes via la documentation officielle, nous avons cherché d'autres sources afin de réussir.
 Cela nous a fait perdre plusieurs heures précieuses et cela nous a obligé à recommencer sur une VM Debian de zéro.
 
-PHOTO
+![Documentation](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/plex%20media%20support.PNG?raw=true)
 
 ### VM Serveur & Connexion Ubuntu
 Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Notamment, des soucis techniques liés à des erreurs de type "unexpected error" qui ne nous indiquent pas ou bien peu d'informations sur le noeud du problème. En effet, le manque de sujets/topics pour une installation de Plex sur un serveur Debian n'a pas rendu la tâche de débogage facile. Les utilisateurs de Plex utilisant majoritairement d'autres configurations, comme par exemple [Docker](https://www.docker.com/) sur un serveur NAS privé. Par ailleurs, des arrêts intempestifs de connexion de la carte réseau interne sur Ubuntu 24.04 LTS a conduit à des pertes de temps considérables. Ce problème survenant en fin de sprint 1, nous a handicapé jusqu'à la veille de la présentation du sprint n°2.  
@@ -48,7 +48,7 @@ Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Nota
 ### Documentation Plex
 Après de nombreux tests, nous avons choisi de suivre la documentation de [Joshua James](https://twitter.com/joshism_j) sur le site https://linuxcapable.com/. C'est la seule documentation qui, en plus d'être claire et concise, explique et propose des éléments supplémentaires comme la configuration des droits de l'utilisateur plex sur la VM serveur. 
 
-PHOTO
+![joshua](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/linux%20capable.PNG?raw=true)
 
 ### VM Serveur & Connexion Ubuntu
 Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapter à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liées aux lignes de     commandes exécutées, soit par une explication trouvée sur des forums comme [Stack Overflow](https://stackoverflow.com/), soit en examinant scrupuleusement la syntaxe des commandes. Pour tous les problèmes liés à la connectivité de la carte réseau interne, nous avons contacté notre formateur qui n'a pas pu, à ce jour, trouver une solution pérenne. La piste d'un problème lié à l'hyperviseur VirtualBox est la plus probable.
@@ -62,4 +62,4 @@ L'installation est très simple à conditions de suivre le bon chemin. Choisir l
 - Selectionner et installer manuellement des agents de métadonnées supplémentaires, par exemple [Colima](https://github.com/defract/Colima.bundle)  pour les amoureux de documentaires ou [Seasnap](https://github.com/seanap/Plex-Audiobook-Guide) pour les audio-livres.
 - Changer de service pour [Jellyfin](https://jellyfin.org/), une alternative en logiciel libre sous licence GNU GPL
 
-  PHOTO
+  ![jellyfin](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/jellyfin.PNG?raw=true)
