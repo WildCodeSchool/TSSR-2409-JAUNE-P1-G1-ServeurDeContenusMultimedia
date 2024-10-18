@@ -48,7 +48,7 @@ Travailler sur Debian 12 pour la première fois a eu son lot de problèmes. Nota
 ### Documentation Plex
 Après de nombreux tests, nous avons choisi de suivre la documentation de [Joshua James](https://twitter.com/joshism_j) sur le site https://linuxcapable.com/. C'est la seule documentation qui, en plus d'être claire et concise, explique et propose des éléments supplémentaires comme la configuration des droits de l'utilisateur plex sur la VM serveur. 
 
-![joshua](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/linux%20capable.PNG?raw=true)
+![joshua](./IMAGES/linux_capable.png)
 
 ### VM Serveur & Connexion Ubuntu
 Malgré la frustration, les nombreuses installations échouées de Plex, nous ont permis de nous adapter à un environnement CLI. Nous avons également pu comprendre la majorité des erreurs liées aux lignes de     commandes exécutées, soit par une explication trouvée sur des forums comme [Stack Overflow](https://stackoverflow.com/) ou bien en examinant scrupuleusement la syntaxe des commandes. Pour tous les problèmes liés à la connectivité de la carte réseau interne, nous avons contacté notre formateur qui n'a pas pu, à ce jour, trouver une solution pérenne. La piste d'un problème lié à l'hyperviseur VirtualBox est la plus probable.
@@ -62,4 +62,4 @@ L'installation est très simple à conditions de suivre le bon chemin. Choisir l
 - Sélectionner et installer manuellement des agents de métadonnées supplémentaires, par exemple [Colima](https://github.com/defract/Colima.bundle)  pour les amteurs de documentaires ou [Seasnap](https://github.com/seanap/Plex-Audiobook-Guide) pour les audio-livres.
 - Changer de service pour [Jellyfin](https://jellyfin.org/), une alternative en logiciel libre sous licence GNU GPL
 
-  ![jellyfin](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G1-ServeurDeContenusMultimedia/blob/main/IMAGES/jellyfin.PNG?raw=true)
+  ![jellyfin](./IMAGES/jellyfin.PNG)
