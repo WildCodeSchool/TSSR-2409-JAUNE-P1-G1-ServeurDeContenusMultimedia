@@ -4,7 +4,7 @@
 
 Pour accéder à l'interface Web, ouvrez votre navigateur web et tapez dans la barre d’adresse :
 
-![Plex menu](IMAGES/Image3Plex.png)
+![Plex menu](./IMAGES/Image3Plex.png)
 
 - http://172.16.10.10:32400/web
 
@@ -66,7 +66,7 @@ Permet de voir les photos que vous avez dans votre bibliothèque Photos.
 
 ## Utilisation avancée de Plex :
 
-![Plex menu](IMAGES/Image2Plex.png)
+![Plex menu](./IMAGES/Image2Plex.png)
 
 Sur l’écran d'accueil, vous avez la barre latérale de navigation sur le côté gauche de l'application Web. Tout en bas, vous pouvez voir le « Plus » avec une flèche.
 En cliquant dessus, cette fonctionnalité vous permet de personnaliser selon vos préférences le menu.
@@ -75,15 +75,15 @@ En cliquant dessus, cette fonctionnalité vous permet de personnaliser selon vos
 
 Il faut tout d'abord se rendre dans le menu réglages et dans la bibliothèque.
 
-![Plex menu](IMAGES/IMG_9215.jpeg)
+![Plex menu](./IMAGES/IMG_9215.jpeg)
 
 Ensuite selon comment vous voudrez gérer votre bibliothèque vous devrez cocher certaines cases.
 
-![Plex menu](IMAGES/IMG_9217.jpeg)
+![Plex menu](./IMAGES/IMG_9217.jpeg)
 
 Concernant les métadonnés, il faudra se rendre dans le menu **Agent**.Les options peuvent différer selon le type de média mais ce sera à l'utilisateur de faire ses choix avec les différents agents additionels.
 
-![Plex menu](IMAGES/IMG_9219.jpeg)
+![Plex menu](./IMAGES/IMG_9219.jpeg)
 
 ## FAQ :
 
