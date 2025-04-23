@@ -13,7 +13,7 @@ Dans un monde où la consommation de contenus multimédias ne cesse d’augmente
 | Baudouin Soubrier De Gaudemar | Product Owner | Exécutant     |
 | Erwan Salomon                 | Scrum Master  | Exécutant     |
 | Marilyn Jacques-Sébastien     | Exécutant     | Scrum Master  |
-| Lamine Lican                  | Exécutant     | Product Owner |
+| Lamine                   | Exécutant     | Product Owner |
 
 ## Choix techniques :
 
